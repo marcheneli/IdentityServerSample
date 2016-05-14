@@ -69,8 +69,14 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="src\actions\index.js" />
+    <Content Include="src\actions\types.js" />
+    <None Include="src\components\auth\require_auth.jsx" />
     <Content Include="src\components\header.jsx" />
     <Content Include="src\components\auth\signin.jsx" />
+    <Content Include="src\components\auth\signout.jsx" />
+    <Content Include="src\components\auth\signup.jsx" />
+    <Content Include="src\components\feature.jsx" />
+    <Content Include="src\components\welcome.jsx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,6 +88,7 @@
     <Content Include="index.html" />
     <None Include="src\index.jsx" />
     <None Include="src\components\app.jsx" />
+    <Content Include="src\reducers\auth_reducer.js" />
     <Content Include="src\reducers\index.js" />
     <Content Include="style\style.css" />
     <Content Include="Web.config" />
